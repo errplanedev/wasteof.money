@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "wasteof.money is a social media with aspects inspired from Twitter and Scratch.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "npm run serve",
     "dev": "nodemon index.js",
@@ -26,7 +27,7 @@
     "image-size": "^0.9.3",
     "jdenticon": "^3.1.0",
     "marked": "^1.2.7",
-    "monk": "^7.3.2",
+    "mongodb": "^7.0.0",
     "postcss": "^8.2.4",
     "postcss-cli": "^8.3.1",
     "prompts": "^2.4.0",
